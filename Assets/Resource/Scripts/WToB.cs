@@ -7,14 +7,14 @@ public class WToB : MonoBehaviour
     private bool isWhite = false; // Set initial color to black
     // Start is called before the first frame update
     private SpriteRenderer spriteRenderer;
-    void Start()
+    private void Start()
     {
         spriteRenderer=GetComponent<SpriteRenderer>();   
        
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
          if (Input.GetKeyDown(KeyCode.X))
         {
@@ -22,11 +22,11 @@ public class WToB : MonoBehaviour
           isWhite = !isWhite;
             if (isWhite)
             {
-                spriteRenderer.color = Color.white;
+                spriteRenderer.color = Color.black;
             }
             else
             {
-                spriteRenderer.color = Color.black;
+                spriteRenderer.color = Color.white;
             }
     }
 }

@@ -43,6 +43,9 @@ public class PlayerController1 : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
     }
+    private void setNewSpeed(float newSpeed){
+        moveSpeed = newSpeed;
+    }
 
     private void InteractWithObject()
     {

@@ -235,6 +235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallBlack
       objectReference: {fileID: 0}
+    - target: {fileID: 3845548296359169249, guid: 8293446afd2047544a8ffb744bdc33de, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8293446afd2047544a8ffb744bdc33de, type: 3}
 --- !u!1001 &1022180749
@@ -287,6 +291,10 @@ PrefabInstance:
     - target: {fileID: 3845548296359169243, guid: 8293446afd2047544a8ffb744bdc33de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845548296359169248, guid: 8293446afd2047544a8ffb744bdc33de, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3845548296359169249, guid: 8293446afd2047544a8ffb744bdc33de, type: 3}
       propertyPath: m_Name
@@ -450,11 +458,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaf17635b2ce67847aaa8e402bbbb521, type: 3}
+--- !u!1 &1571386021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2232928429337475829, guid: a7a38f2294d71e4448b6092858964492, type: 3}
+  m_PrefabInstance: {fileID: 207512107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1571386026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2232928429337475826, guid: a7a38f2294d71e4448b6092858964492, type: 3}
   m_PrefabInstance: {fileID: 207512107}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1571386027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571386021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2a631cd5c7c423494676f21bb2e62f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTag: Ground
 --- !u!1001 &1928784344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -462,6 +488,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2062188761342533308, guid: aaf17635b2ce67847aaa8e402bbbb521, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2062188761342533308, guid: aaf17635b2ce67847aaa8e402bbbb521, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2062188761342533308, guid: aaf17635b2ce67847aaa8e402bbbb521, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2062188761342533309, guid: aaf17635b2ce67847aaa8e402bbbb521, type: 3}
       propertyPath: m_Name
       value: WallWhite (1)

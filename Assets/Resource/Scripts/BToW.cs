@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class BToW : MonoBehaviour
 { 
-    private bool isWhite = false; // Set initial color to black
+    private bool isGreen = false; // Set initial color to black
     // Start is called before the first frame update
     private SpriteRenderer spriteRenderer;
-    void Start()
+    private void Start()
     {
         spriteRenderer=GetComponent<SpriteRenderer>();   
        
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
          if (Input.GetKeyDown(KeyCode.X))
         {
             // Toggle color between black and white
-          isWhite = !isWhite;
-            if (isWhite)
+          isGreen = !isGreen;
+            if (isGreen)
             {
                 spriteRenderer.color = Color.green;
             }
