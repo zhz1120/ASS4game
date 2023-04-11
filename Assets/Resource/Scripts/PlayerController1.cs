@@ -7,6 +7,7 @@ public class PlayerController1 : MonoBehaviour
     public LayerMask groundLayer;
     public Transform groundCheck;
     public float checkRadius = 0.5f;
+    public Color Pcolor = Color.white;
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -63,11 +64,13 @@ public class PlayerController1 : MonoBehaviour
         if (isWhite)
         {
             spriteRenderer.color = Color.black;
+            Pcolor = Color.black;
             isWhite = false;
         }
         else
         {
             spriteRenderer.color = Color.white;
+            Pcolor = Color.white;
             isWhite = true;
         }
     }

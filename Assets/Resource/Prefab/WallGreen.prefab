@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3845548296359169254}
   - component: {fileID: 3845548296359169255}
   - component: {fileID: 3845548296359169248}
+  - component: {fileID: 2266599236852618686}
   m_Layer: 7
   m_Name: WallGreen
   m_TagString: GWall
@@ -160,3 +161,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf57c8c5e8bc5a4e9aeabe418d8b3f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2266599236852618686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3845548296359169249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2a631cd5c7c423494676f21bb2e62f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTag: GWall

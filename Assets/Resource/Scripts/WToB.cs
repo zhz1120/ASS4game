@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class WToB : MonoBehaviour
 { 
-    private bool isWhite = false; // Set initial color to black
+    
     // Start is called before the first frame update
+   
+    private bool isWhite = false; // Set initial color to black
     private SpriteRenderer spriteRenderer;
+
     private void Start()
     {
-        spriteRenderer=GetComponent<SpriteRenderer>();   
-       
+        spriteRenderer = GetComponent<SpriteRenderer>(); 
     }
 
     // Update is called once per frame
@@ -29,5 +31,5 @@ public class WToB : MonoBehaviour
                 spriteRenderer.color = Color.white;
             }
     }
-}
+    }
 }

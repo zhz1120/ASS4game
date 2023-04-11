@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2062188761342533310}
   - component: {fileID: 2062188761342533299}
   - component: {fileID: 2062188761342533296}
+  - component: {fileID: 400433243706362099}
+  - component: {fileID: 7425168265154108555}
   m_Layer: 7
   m_Name: WallWhite
   m_TagString: Ground
@@ -158,5 +160,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7097a8f260de5f48a3b6384f33bc577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &400433243706362099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062188761342533309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d935d6a6f9746b58920fc780cd0754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7425168265154108555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062188761342533309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3636160f50a76435784701757a61aa3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
