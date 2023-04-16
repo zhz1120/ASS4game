@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 3845548296359169252}
   - component: {fileID: 3845548296359169253}
   - component: {fileID: 3845548296359169254}
-  - component: {fileID: 3845548296359169255}
   - component: {fileID: 3845548296359169248}
   - component: {fileID: 2266599236852618686}
+  - component: {fileID: -5988336605751663084}
   m_Layer: 7
   m_Name: WallGreen
-  m_TagString: GWall
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,19 +136,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3845548296359169255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3845548296359169249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8402492fbd56b6428e7d738a05f5dd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controlledObject: {fileID: 0}
 --- !u!114 &3845548296359169248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,4 +160,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2a631cd5c7c423494676f21bb2e62f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundTag: GWall
+  groundTag: Ground
+--- !u!114 &-5988336605751663084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3845548296359169249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8402492fbd56b6428e7d738a05f5dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlledObject: {fileID: 0}

@@ -35,8 +35,10 @@ public class GroundCollisionDetector : MonoBehaviour
     {
         if(spriteRenderer.color == Color.black){
             playerController.moveSpeed = 10f;
+            playerController.jumpForce = 6f;
         }else if(spriteRenderer.color == Color.white){
             playerController.moveSpeed = 2f;
+            playerController.jumpForce = 12f;
         }
         Debug.Log("角色已经接触到地面，触发效果");
     }
